@@ -1,0 +1,124 @@
+.user {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+  justify-content: space-between;
+}
+
+.user__column {
+  display: flex;
+  align-items: center;
+}
+
+.user__column__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.user__column__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  margin-right: 18px;
+}
+
+.user__column__photo__big {
+  width: 80px;
+  height: 80px;
+}
+
+.user__column__photo__small {
+  width: 60px;
+  height: 60px;
+}
+
+.user__column__name__name {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.user__column__name__status {
+  font-size: 13px;
+  color: var(--grey);
+}
+
+.user__column__music {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.user__column-music {
+  border: 2px solid #8dcea1;
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+
+.user__column i {
+  color: #8dcea1;
+  margin-left: 5px;
+}
+
+.no-content {
+  display: none;
+}
+
+.user__column__photo__plus {
+  font-size: 40px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user__column__birthday {
+  flex-direction: row;
+}
+
+.user__column__birthday__cake {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.user__column-gift {
+  border: 2px solid #ea6d73;
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+
+.user__column .fa-gift {
+  color: #ea6d73;
+  margin-left: 5px;
+}
+
+.user__column__photo__birthday,
+.user__column__photo__friends {
+  background-color: #ea6d73;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.user__column__photo__friends {
+  background-color: #8f7ec1;
+}
+
+.user__column__photo__birthday .fa-birthday-cake,
+.user__column__photo__friends .fa-smile {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  left: 13px;
+  top: 14px;
+}
+
+.user__column__photo__friends .fa-smile {
+  font-size: 32px;
+  left: 10px;
+}
+
+.user__column__count .user__column__music,
+.user__column__count .fa-chevron-right {
+  color: var(--grey);
+}
