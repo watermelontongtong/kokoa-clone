@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <span>7:11</span>
+        <i class="fas fa-sms"></i>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
+        <span>75%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <h2 class="welcome-header__text">
+        If you have a Kakao Account, log in with your email or phone number.
+      </h2>
+    </header>
+
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        required
+        class="login-form__text"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        required
+        class="login-form__password"
+        type="password"
+        placeholder="Password"
+      />
+      <input class="login-form__button" type="submit" value="Log In" />
+      <a class="login-form__link" href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
