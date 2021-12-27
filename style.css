@@ -12,6 +12,7 @@
 @import "css/screens/index.css";
 @import "css/screens/friends.css";
 @import "css/screens/more.css";
+@import "css/screens/setting.css";
 
 * {
   box-sizing: border-box;
