@@ -1,0 +1,123 @@
+.wallet {
+  background-color: var(--yellow);
+  padding: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.wallet__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.wallet__header__column__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.wallet .fa-chevron-right {
+  color: var(--grey);
+}
+
+.wallet__kakao-pay__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.wallet__kakao-pay__logo {
+  position: relative;
+}
+
+.wallet__kakao-pay__logo__span {
+  font-weight: 600;
+  position: absolute;
+  bottom: 2px;
+  left: 18px;
+}
+
+.wallet__kakao-pay__money span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.wallet__kakao-pay__row2__column1 span {
+  margin-right: 15px;
+}
+
+.wallet__kakao-pay__row2__column1 span:nth-child(even) {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.wallet__kakao-pay__row2__column2 span {
+  margin-left: 5px;
+}
+
+.more-functions__imoticons {
+  padding: 0px 25px;
+}
+
+.more-functions__imoticons__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.more-functions__imoticon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.more-functions__imoticon span {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--grey);
+}
+
+.more-functions__imoticons__row:last-child {
+  width: 76%;
+}
+
+.weather {
+  margin: 20px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0px;
+}
+
+.weather__region {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.weather__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather__info__temp {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.weather__info__detail {
+  font-size: 13px;
+  color: var(--grey);
+}
+
+.weather__info__column:last-child {
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

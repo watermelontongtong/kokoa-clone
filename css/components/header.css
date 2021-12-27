@@ -14,3 +14,23 @@ header {
 .header__imoticon {
   margin-left: 23px;
 }
+
+.header__imoticon:last-child {
+  position: relative;
+}
+
+.header__imoticon-dot {
+  color: tomato;
+  background-color: tomato;
+  font-size: 0.5px;
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 23px;
+}

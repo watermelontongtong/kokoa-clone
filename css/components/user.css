@@ -122,3 +122,30 @@
 .user__column__count .fa-chevron-right {
   color: var(--grey);
 }
+
+.user__column-date-count {
+  display: flex;
+  flex-direction: column;
+}
+
+.user__column-date-count__count {
+  background-color: tomato;
+  color: white;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.no-content {
+  display: none;
+}
+
+.user__column-date-count__count-none {
+  background-color: rgba(0, 0, 0, 0);
+}
