@@ -1,0 +1,131 @@
+.find-friend {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find-friend__method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+
+.find-friend__method i {
+  font-size: 30px;
+}
+
+.find-friend__method span {
+  margin-top: 30px;
+}
+
+.find-friend__method:nth-child(2) span {
+  text-align: center;
+  margin-top: 23px;
+}
+
+.recommended-friends {
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.recommended-friends h3 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.recommended-friends__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0px;
+  color: var(--grey);
+}
+
+.open-chat__header {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat__header__column:first-child span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.open-chat__header__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__header__column:last-child i {
+  margin-left: 5px;
+}
+
+.open-chat__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chat__content__column:first-child h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.open-chat__content__column:first-child h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: var(--grey);
+}
+
+.open-chat__content__column__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__content__column__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-chat__content__column:last-child img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10%;
+}
+
+.open-chat__content__column__members span {
+  color: var(--grey);
+  margin-right: 5px;
+}
+
+.open-chat__content__column__members span:last-child {
+  color: palevioletred;
+  margin-right: 5px;
+}
+
+.open-chat__content__column:last-child {
+  position: relative;
+}
+
+.open-chat__content__column__heart-count {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  width: 60px;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45px;
+  bottom: 8px;
+}
+
+.open-chat__content__column__heart-count i {
+  margin-right: 3px;
+}
