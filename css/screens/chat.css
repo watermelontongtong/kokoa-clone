@@ -19,6 +19,11 @@
 
 .main-chat {
   animation: fadeIn 0.3s ease-in-out;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .chat-header {
@@ -52,24 +57,37 @@
 }
 
 .chat-date {
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.15);
   color: white;
   width: 160px;
   height: 30px;
   border-radius: 25px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 13px;
-  margin: 35px 140px;
+  margin: 35px 0px;
   margin-bottom: 20px;
 }
 
 .chat-talk {
+  width: 100%;
   display: flex;
+  justify-content: flex-start;
   padding: 10px 0px;
+}
+
+.chat-talk__column:first-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chat-talk__column-me {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .chat-talk .chat-talk__column__photo {
@@ -106,12 +124,6 @@
   font-weight: 600;
 }
 
-.chat-talk__column-me {
-  display: flex;
-  width: 460px;
-  flex-direction: row-reverse;
-}
-
 .chat-talk__column-me .chat-talk__column__content__bubble {
   background-color: var(--yellow);
   border-radius: 15px;
@@ -130,12 +142,6 @@
 
 .chat-talk__column__content-continue .chat-talk__column__content__bubble {
   border-radius: 15px;
-}
-
-.chat-talk__image {
-  width: 460px;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .chat-form {
