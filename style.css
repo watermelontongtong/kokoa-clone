@@ -7,6 +7,7 @@
 @import "css/components/header.css";
 @import "css/components/user.css";
 @import "css/components/nav.css";
+@import "css/components/no-mobile.css";
 
 /* screens */
 @import "css/screens/index.css";
@@ -23,7 +24,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--black);
-  height: 1000vh;
+  height: 100%;
 }
 
 input {

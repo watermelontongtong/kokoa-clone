@@ -126,6 +126,24 @@
   bottom: 8px;
 }
 
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .open-chat__content__column__heart-count i {
   margin-right: 3px;
+}
+
+.open-chat__content__column__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
